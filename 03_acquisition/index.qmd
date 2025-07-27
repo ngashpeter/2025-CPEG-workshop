@@ -154,7 +154,7 @@ While the metadata is important to keep in the raw file, for the purposes of ana
 
 ```{r read_trimmed}
 # Load data file, skipping metadata
-fossils <- read_csv("cenozoic_crocs_raw.csv", skip = 18)
+fossils <- read_csv("cenozoic_crocs_raw.csv", skip = 35)
 ```
 
 Here, we can see that we still have parsing issues, specifically that there were two columns in the `csv` file named "cc", for "country code". Their column number has been appended to their column name, in order to keep these distinct. Is this column simply duplicated? We can check this.

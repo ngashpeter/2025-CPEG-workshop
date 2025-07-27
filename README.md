@@ -1,4 +1,5 @@
 # Palaeoverse Workshop Template
+Hopefully I can maintain cleaner versions of code for seamless sharing and collaborations.
 
 ## Purpose
 
